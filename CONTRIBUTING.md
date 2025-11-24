@@ -1,4 +1,4 @@
-# Contributing to Hammer#
+# Contributing to KUMA
 
 Thank you for your interest!
 We're excited to have you here.
