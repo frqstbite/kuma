@@ -8,7 +8,10 @@ Meet KUMA, a cross-platform arcade that runs right in your terminal.
 ## Table of Contents
 
 - [Installation](#installation)
-  - []
+  - [Package Manager](#package-manager)
+  - [Manual](#manual)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
@@ -25,6 +28,8 @@ Prebuilt binaries are available on the [releases] page.
 #### Build
 
 If you so wish, you can clone this repository and build your own copy of KUMA.
+
+TODO Build Instructions
 
 ## Contributing
 
