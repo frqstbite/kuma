@@ -4,15 +4,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'kuma'",
+            "name": "Client",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=kuma",
-                    "--package=kuma"
+                    "--bin=client",
+                    "--package=client"
                 ],
                 "filter": {
-                    "name": "kuma",
+                    "name": "client",
                     "kind": "bin"
                 }
             },
@@ -22,18 +22,12 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'kuma'",
+            "name": "Unit Tests",
             "cargo": {
                 "args": [
                     "test",
-                    "--no-run",
-                    "--bin=kuma",
-                    "--package=kuma"
-                ],
-                "filter": {
-                    "name": "kuma",
-                    "kind": "bin"
-                }
+                    "--workspace"
+                ]
             },
             "args": [],
             "cwd": "${workspaceFolder}"
