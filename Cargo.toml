@@ -4,3 +4,7 @@ members = [
     "crates/*",
     "cartridges/*",
 ]
+
+[workspace.dependencies]
+kuma-api = { path = "crates/api" }
+kuma-engine = { path = "crates/engine" }

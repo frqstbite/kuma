@@ -1,6 +1,7 @@
 [package]
-name = "kuma_engine"
+name = "kuma-engine"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+kuma-api = { workspace = true }

@@ -1,9 +1,10 @@
 [package]
-name = "kuma_client"
+name = "kuma-client"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+kuma-engine = { workspace = true }
 bitflags = "2.10.0"
 crossterm = "0.29.0"
 thiserror = "2.0.17"
